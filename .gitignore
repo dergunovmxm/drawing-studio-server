@@ -1,0 +1,67 @@
+# Логи
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Временные файлы
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
+
+# Директория для скомпилированных файлов
+dist/
+build/
+
+# Зависимости
+node_modules/
+npm_modules/
+jspm_packages/
+
+# Кэш зависимостей
+.npm
+.eslintcache
+.node_repl_history
+
+# Кэш Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Переменные окружения
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE файлы
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Операционные системные файлы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Файлы покрытия тестов
+coverage/
+.nyc_output/
+
+# Документация
+docs/_build/
+
+# Дополнительные настройки для TypeScript (если используется)
+*.tsbuildinfo
