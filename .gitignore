@@ -17,10 +17,6 @@ lerna-debug.log*
 dist/
 build/
 
-# Зависимости
-node_modules/
-npm_modules/
-jspm_packages/
 
 # Кэш зависимостей
 .npm
